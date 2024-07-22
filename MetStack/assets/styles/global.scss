@@ -1,0 +1,41 @@
+@import 'variables.scss';
+@import 'mixin.scss';
+/* Reset some default styles to ensure consistency across browsers */
+img{
+  max-width: 100%;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: $font-family;
+  @include rem(16px);
+  line-height: normal;
+  // color: $main-text;
+  overflow: auto;
+}
+// .container {
+//     @media only screen and (min-width: 1200px) and (max-width: 1500px) {
+//       max-width: 1170px !important;
+//       margin: 0px auto;
+//       overflow: hidden;
+//     }
+//   }
+/* Reset some default styles to ensure consistency across browsers */
